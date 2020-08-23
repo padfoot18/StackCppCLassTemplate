@@ -11,7 +11,7 @@ Its a header only implemetation, copy the files in the include directory into a 
 
     #include "stack.h"    // This imports the class template implementation as well as the exception classes.
 
-For the documentation open [this](doc/html/index.html) file in your browser.
+For the documentation visit [here](https://padfoot18.github.io/StackCppClassTemplate/docs/html-site/index.html).
 
 ## Tech
 * Class templates
