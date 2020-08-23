@@ -1,0 +1,82 @@
+\hypertarget{classStackError}{}\doxysection{Stack\+Error Class Reference}
+\label{classStackError}\index{StackError@{StackError}}
+
+
+Base class for all \mbox{\hyperlink{classStack}{Stack}} related exceptions.  
+
+
+
+
+{\ttfamily \#include $<$stackerror.\+h$>$}
+
+
+
+Inheritance diagram for Stack\+Error\+:
+% FIG 0
+
+
+Collaboration diagram for Stack\+Error\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classStackError_a57eabef490b0575ee8a03cdbb8178cf3}{Stack\+Error}} (const char $\ast$\mbox{\hyperlink{classStackError_aa830b6a89e7787976e464b12404698b6}{msg}}=\char`\"{}Stack\+Error\char`\"{})
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+const char $\ast$ \mbox{\hyperlink{classStackError_a3c059bbaace65f251f223438559bd4cb}{what}} () const noexcept
+\begin{DoxyCompactList}\small\item\em Overridden \mbox{\hyperlink{classStackError_a3c059bbaace65f251f223438559bd4cb}{what()}} method from std\+::runtime\+\_\+error. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classStackError_aa830b6a89e7787976e464b12404698b6}{msg}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for all \mbox{\hyperlink{classStack}{Stack}} related exceptions. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStackError_a57eabef490b0575ee8a03cdbb8178cf3}\label{classStackError_a57eabef490b0575ee8a03cdbb8178cf3}} 
+\index{StackError@{StackError}!StackError@{StackError}}
+\index{StackError@{StackError}!StackError@{StackError}}
+\doxysubsubsection{\texorpdfstring{StackError()}{StackError()}}
+{\footnotesize\ttfamily Stack\+Error\+::\+Stack\+Error (\begin{DoxyParamCaption}\item[{const char $\ast$}]{msg = {\ttfamily \char`\"{}StackError\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Error message \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classStackError_a3c059bbaace65f251f223438559bd4cb}\label{classStackError_a3c059bbaace65f251f223438559bd4cb}} 
+\index{StackError@{StackError}!what@{what}}
+\index{what@{what}!StackError@{StackError}}
+\doxysubsubsection{\texorpdfstring{what()}{what()}}
+{\footnotesize\ttfamily const char$\ast$ Stack\+Error\+::what (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+Overridden \mbox{\hyperlink{classStackError_a3c059bbaace65f251f223438559bd4cb}{what()}} method from std\+::runtime\+\_\+error. 
+
+\begin{DoxyReturn}{Returns}
+Error message as const char$\ast$. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classStackError_aa830b6a89e7787976e464b12404698b6}\label{classStackError_aa830b6a89e7787976e464b12404698b6}} 
+\index{StackError@{StackError}!msg@{msg}}
+\index{msg@{msg}!StackError@{StackError}}
+\doxysubsubsection{\texorpdfstring{msg}{msg}}
+{\footnotesize\ttfamily std\+::string Stack\+Error\+::msg\hspace{0.3cm}{\ttfamily [protected]}}
+
+Error message 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{stackerror_8h}{stackerror.\+h}}\end{DoxyCompactItemize}
