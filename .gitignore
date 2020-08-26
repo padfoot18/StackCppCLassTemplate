@@ -3,3 +3,6 @@
 main
 html/
 
+# vscode config folder
+.vscode/
+
